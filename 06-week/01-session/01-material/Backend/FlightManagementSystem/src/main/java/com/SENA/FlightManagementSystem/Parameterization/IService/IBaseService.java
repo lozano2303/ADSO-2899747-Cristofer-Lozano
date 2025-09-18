@@ -1,8 +1,10 @@
 package com.SENA.FlightManagementSystem.Parameterization.IService;
+
 import java.util.List;
 import java.util.Optional;
 
 import com.SENA.FlightManagementSystem.Parameterization.Entity.ABaseEntity;
+
 public interface IBaseService<T extends ABaseEntity> {
      /**
      * Retrieves all entities.
